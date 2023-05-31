@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/contato.css">
+</head>
+<body>
+    <div id="cabecalho">
+        <header id="logo">
+            <h1>URBITÁVEL</h1>
+
+            <img src="../img/logo.png">
+        </header>
+
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html" target="_blank">Página Inicial</a></li>
+                <li><a href="sobre.html" target="_blank">Sobre Nós</a></li>
+                <li><a href="nossacausa.html" target="_blank">Por Trás da Causa</a></li>
+            </ul>
+
+            <ul>
+                <li><a href="privacidade.html" target="_blank">Privacidade</a></li>
+                <li><a href="contato.html" target="_blank">Fale Conosco</a></li>
+                <li><a href="login.html" target="_blank">Minha conta</a></li>
+                <li id="simbApoie"><a href="apoie.html" target="_blank">Apoie</a></li>
+            </ul>
+        </nav> 
+    </div>
+
+    <main>
+        <div>
+            <form id="comunicacao" action="cominicacao" name="comunicacao" method="get">
+                <h2 id="tituloComunic">Canal de Comunicação</h2> <br>
+
+                <p>
+                    Entre em contato com nós via e-mail. <br>
+                    Responderemos o mais rápido possível!
+                </p> <br><br><br>
+
+                <fieldset>
+                    <label class="infos" for="c-nome" class="titulos">Nome </label> <br>
+                    <input type="text" name="nome" id="c-nome"> <br><br>
+
+                    <label class="infos" for="c-email2" class="titulos">E-mail </label> <br>
+                    <input type="email" name="email2" id="c-email2"> <br><br><br>
+
+                    <label for="c-duvida" class="titulos">Escreva sua mensagem ou dúvida: </label> <br>
+                    <input type="text" name="duvida" id="c-duvida"> <br><br>
+                </fieldset>
+
+                <input id="btncomunicacao" type="submit" value="Enviar">
+            </form>
+        </div>
+
+        <div id="notificacaoEmail">
+            <h2>Cadastre-se abaixo!</h2> <br>
+
+            <p>Receba alertas de ações e novos conteúdos no seu e-mail.</p> <br>
+
+            <form action="notificacao" name="notifEmail" method="get">
+                <fieldset>
+                    <label for="c-email"></label>
+                    <input type="email" name="email" id="c-email"> <br><br><br>
+
+                    <input id="inscrever" type="submit" value="Inscrever-se">
+                </fieldset>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>TM Urbitável Brasil 2023 | Organização sem fins lucrativos</p>
+    </footer>
+
+</body>
+</html>

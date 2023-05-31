@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: #f4f9f3da;
+  height: 1000px;
+  background-image: url(../img/fundinho.jpg);
+  background-size: 100% 40%;
+  background-repeat: no-repeat;
+  font-family: Epilogue;
+}
+
+#cabecalho{
+  background-color: #2C4928;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-content: space-evenly;
+  align-items: center;
+}
+
+header{
+  margin: 0;
+}
+
+#logo{
+  /* float: left; */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  align-content: space-evenly;
+  padding: 15px 10px 15px 50px;
+}
+
+logo img{
+  padding: 5px 10px 5px 10px;
+}
+
+nav{
+  min-height: 50px;
+  background-color: #2C4928;
+  padding: 15px 20px 15px 20px;
+  margin: 0;
+  clear: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: space-evenly;
+  width: 100%;
+}
+
+nav ul{
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li{
+  display: inline-block;
+}
+
+nav ul li a{
+  color: beige;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 15px;
+  /* display: inline-block; */
+}
+
+nav ul li a:hover{
+  background-color: #ffffff44;
+  border-radius: 7px;
+}
+
+#simbApoie{
+  background-color: #1c3019;
+  border-radius: 20px;
+}
+
+#simbApoie a:hover{
+  background-color: #ffffff44;
+  border-radius: 20px;
+}
+
+li {
+  /* float: right; */
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+li a {
+  display: flex;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #476147;
+}
+
+#notificacaoEmail{
+  min-height: 300px;
+  background-image: url(../img/rodapé.jpg);
+  margin: 0;
+  padding: 15px;
+  border-top: 15px solid gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#notificacaoEmail p{
+  font: black;
+  font-family: Epilogue;
+}
+
+#c-email{
+  width: 300px;
+  height: 20px;
+  border: 1px solid black;
+}
+
+#inscrever{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: auto;
+  border: 1px solid rgb(116, 116, 255);
+  padding: 5px 30px 5px 30px;
+  border-radius: 5px;
+  color: rgb(116, 116, 255);
+}
+
+footer{
+  background-color: #58774C;
+  min-height: 10px;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
