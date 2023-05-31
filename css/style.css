@@ -10,8 +10,8 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
-  background-color: #f4f9f3da;
-  height: 1000px;
+  background-color: #153d0a85;
+  min-height: 100vh;
   background-image: url(../img/fundinho.jpg);
   background-size: 100% 40%;
   background-repeat: no-repeat;
@@ -19,7 +19,7 @@ body {
 }
 
 #cabecalho{
-  background-color: #2C4928;
+  background-color: #f4f9f3da;
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -37,17 +37,22 @@ header{
   flex-direction: row;
   align-items: flex-start;
   align-content: space-evenly;
-  padding: 15px 10px 15px 50px;
+  padding: 10px 5px 10px 30px;
 }
 
-logo img{
-  padding: 5px 10px 5px 10px;
+#logo img{
+  width: 135px;
+  height: 90px;
+}
+
+#menu{
+  background-color: #f4f9f3da;
 }
 
 nav{
   min-height: 50px;
-  background-color: #2C4928;
-  padding: 15px 20px 15px 20px;
+  background-color: #f4f9f3da;
+  padding: 10px 15px 10px 15px;
   margin: 0;
   clear: none;
   display: flex;
@@ -68,7 +73,7 @@ nav ul li{
 }
 
 nav ul li a{
-  color: beige;
+  color: #153d0a;
   padding: 10px 20px;
   text-decoration: none;
   font-size: 15px;
@@ -83,6 +88,10 @@ nav ul li a:hover{
 #simbApoie{
   background-color: #1c3019;
   border-radius: 20px;
+}
+
+#simbApoie a{
+  color: #f4f9f3da;
 }
 
 #simbApoie a:hover{
