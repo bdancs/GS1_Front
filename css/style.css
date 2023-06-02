@@ -14,9 +14,10 @@ body {
   border: 0;
   background-color: #153d0a85;
   background-image: url(../img/fundinho.jpg);
-  background-size: 100% 40%;
+  /* opacity: 80%; */
+  background-size: 100% 35%;
   background-repeat: no-repeat;
-  min-height: 100vh;
+  min-height: 200vh;
   font-family: Epilogue;
 }
 
