@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
 
 #container_apresentacao{
-    background-color: #f4f9f3ad;
+    background-color: #F4F9F3;
     border-radius: 25px;
-    padding: 20px;
+    padding: 50px 20px 50px 20px;
     margin-top: 50px;
     margin-bottom: 50px;
     margin: 10%;
@@ -36,7 +36,7 @@
 #explicacao h2{
     font-size: 30px;
     font-weight: bold;  
-    color: #638363;
+    color: #153d0a;
     padding-top: 5px;
     padding-bottom: 10px;
 }

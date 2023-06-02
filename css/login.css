@@ -4,14 +4,14 @@
   background-color: #F4F9F3;
   border-radius: 25px;
   padding: 50px 30px 50px 30px;
-  margin: 100px 25% 50px 25%;
+  margin: 70px 25% 50px 25%;
   box-shadow: -1px 2px 2px grey;
   text-align: center;
 }
 
 #login h2{
   text-align: center;
-  color: #638363;
+  color: #153d0a;
 }
 
 #login form fieldset{

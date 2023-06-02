@@ -36,17 +36,29 @@
                 </p> <br><br><br>
 
                 <fieldset>
-                    <label class="infos" for="c-nome" class="titulos">Nome </label> <br>
+                    <label class="infos" for="c-ajuda">Tipo de Contato</label> <br>
+                    <select name="contato" id="c-ajuda">
+                        <option value="" disabled selected>Selecionar</option>
+        
+                        <option value="parceria">Sou uma ONG e quero me tornar parceira</option>
+                        <option value="ajuda">Procuro assistência para mim e minha família</option>
+                        <option value="dúvida">Dúvidas no geral</option>
+                    </select>
+                </fieldset> <br><br>
+
+                <fieldset>
+                    <label class="infos" for="c-nome">Nome </label> <br>
                     <input type="text" name="nome" id="c-nome"> <br><br>
 
-                    <label class="infos" for="c-email2" class="titulos">E-mail </label> <br>
+                    <label class="infos" for="c-email2">E-mail </label> <br>
                     <input type="email" name="email2" id="c-email2"> <br><br><br>
 
                     <label for="c-duvida" class="titulos">Escreva sua mensagem ou dúvida: </label> <br>
                     <input type="text" name="duvida" id="c-duvida"> <br><br>
                 </fieldset>
 
-                <input id="btncomunicacao" type="submit" value="Enviar">
+                <input class="btncomunicacao" type="submit" value="Enviar">
+                <input class="btncomunicacao"  type="reset" value="Limpar">
             </form>
         </div>
 
@@ -66,7 +78,7 @@
         </div>
 
         <div class="footape">
-            <div class="footape div1">
+            <div class="footape">
                 <p>
                     <img src="../img/local.png">Av. dos Austronautas, 2023 - São Paulo, 02675-031
                 </p> <br><br>
@@ -87,7 +99,7 @@
                 </p>
             </div>
 
-            <div class="footape div3">
+            <div class="footape">
                 <img src="../img/fotape3.png" id="fotapeImg">
             </div>
         </div>
