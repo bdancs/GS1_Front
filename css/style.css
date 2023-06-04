@@ -29,7 +29,6 @@ header{
   width: 100%;
   align-content: space-evenly;
   align-items: center;
-  /* position: fixed; */
   border-bottom: 3px solid #be0c2a;
 }
 
@@ -46,7 +45,6 @@ header{
 nav{
   padding: 0px 20px 0px 0px;
   margin: 0;
-  clear: none;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
