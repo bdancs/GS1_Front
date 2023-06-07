@@ -48,6 +48,7 @@
 
 .carrossel{
     box-shadow: 2px 2px 4px black;
+    display: inline-flex;
     overflow: hidden;
     height: 500px;
     width: 500px;
